@@ -35,9 +35,17 @@ footer a:hover {
 }
 
 h1 {
-	font-family: 'Genos', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 p {
-	font-family: 'Genos', sans-serif;
+	font-family: 'Mulish', sans-serif;
+}
+
+.body-font {
+	font-family: 'Mulish', sans-serif;
+}
+
+a {
+ 	font-family: 'Mulish', sans-serif;
 }
