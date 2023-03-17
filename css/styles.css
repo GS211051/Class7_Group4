@@ -35,7 +35,23 @@ footer a:hover {
 }
 
 h1 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Josefin Sans', sans-serif !important;
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif !important;
+}
+
+h3 {
+	font-family: 'Josefin Sans', sans-serif !important;
+}
+
+h4 {
+	font-family: 'Josefin Sans', sans-serif !important;
+}
+
+h5 {
+	font-family: 'Josefin Sans', sans-serif !important;
 }
 
 p {
@@ -50,6 +66,10 @@ a {
  	font-family: 'Mulish', sans-serif;
 }
 
+li {
+	font-family: 'Mulish', sans-serif;
+}
+
 .image-padding {
 	padding-top: 50px;
 	margin-bottom: -10px !important;
@@ -57,4 +77,25 @@ a {
 
 .footer-background {
 	background-color: #9EC4E6 !important;
+}
+
+.border-bottom {
+	border-bottom: 2px solid #FF871D !important;
+}
+
+.button-background {
+	background-color: #FF871D !important;
+	border: 1px solid #9EC4E6 !important;
+}
+
+.background-header {
+	background-color: #5DA6E7;
+}
+
+.button-background-alt {
+	background-color: #FFBA01 !important;
+}
+
+.corporate-header {
+	background-color: #FFBA01 !important;
 }
