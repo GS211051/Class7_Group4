@@ -1,6 +1,8 @@
 /* Importing a Google Font */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 /* Changing the main font and background colour */
 
@@ -98,4 +100,25 @@ li {
 
 .corporate-header {
 	background-color: #FFBA01 !important;
+}
+
+.margin-landing {
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-top: 25px;
+}
+
+.background-secondary {
+	background-color: #FDF1D0;
+}
+
+.background-landing {
+  background-image: url("images/social-media-placeholder.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.landing-padding {
+	padding-bottom: 150px;
 }
