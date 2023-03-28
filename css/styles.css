@@ -113,10 +113,10 @@ li {
 }
 
 .background-landing {
-  background-image: url("images/social-media-placeholder.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("../images/placeholder.png") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
 }
 
 .landing-padding {
@@ -153,8 +153,51 @@ li {
 	background-color: #ffba01 !important;
 	border-color: #595959 !important;
 	color: #000000	!important;
+	font-family: 'Josefin Sans', sans-serif !important;
 }
 
 .visual-image {
 	width: 250px !important;
+}
+
+.footer-logo-padding {
+	padding-top: 20px;
+}
+
+.footer-logo-width {
+	width: 40px !important;
+}
+
+.funding-header-marging {
+	margin: 50px !important;
+	margin-bottom: 60px !important;
+}
+
+.align-left {
+	text-align: left !important;
+}
+
+.about-subtitle {
+	margin-bottom: 30px;
+}
+
+.customize-margin {
+	margin-top: 100px !important;
+}
+
+.customize-padding {
+	padding-bottom: 200px !important;
+}
+
+.visual-padding {
+	padding-top: 20px !important;
+}
+
+.visual-margin {
+	margin-bottom: 50px !important;
+}
+
+.visual-header-margin {
+	margin-top: 75px !important;
+	margin-bottom: 50px !important;
 }
