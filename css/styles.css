@@ -122,3 +122,39 @@ li {
 .landing-padding {
 	padding-bottom: 150px;
 }
+
+.footer-image {
+	width: 60px !important;
+	padding-bottom: 15px !important;
+}
+
+.about-header-image {
+	width: 500px !important;
+}
+
+.about-margin {
+	margin: 10px !important;
+}
+
+.about-image {
+	width: 300px;
+}
+
+.team-margin {
+	margin-bottom: 50px !important;
+}
+
+.funding-margin {
+	margin-bottom: 50px !important;
+	margin-top: 20px !important;
+}
+
+.btn-primary {
+	background-color: #ffba01 !important;
+	border-color: #595959 !important;
+	color: #000000	!important;
+}
+
+.visual-image {
+	width: 250px !important;
+}

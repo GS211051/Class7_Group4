@@ -54,34 +54,33 @@
     <!-- End of navigation bar -->
 	
 	<!-- section for logo and subtitle -->
-	<section>
-		<div>
-			<h1>Help us, help you</h1>
+	<section class="container">
+		<div class="row">
+			<h1 class="col-12 mx-auto text-center">Help us, help you</h1>
 		</div>
-	</section>
-	  
-	 <!-- section for content of page -->
-	<section>
-	  <div>
-		  <!-- div for paragraph text -->
-	  </div>
-	  <div>
-		  <!-- div for paragraph text -->
-	  </div>
-	  <div>
-		  <!-- div for paragraph text -->
-	  </div>
-	  <div>
-		  <!-- div for image -->
-	  </div>
 	</section>
 	
-	<section>
-		<div>
-			<!-- instert button to donate -->
+	 <!-- section for content of page -->
+	<section class="container">
+		<div class="row">
+			<div class="col-6 text-center">
+				<h3>Why we need funding?</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+				<h3>What will we use it for?</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+				<h3>What will you get?</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+			</div>
+	  		<div class="col-6 mx-auto funding-image">
+				<img src="images/placeholder.png" alt="">
+	  		</div>
+		</div>
+		<div class="row funding-margin">
+			<div class="col-12 mx-auto text-center">
+				<button type="button" class="btn btn-primary">Klik hier om te doneren</button>
+			</div>
 		</div>
 	</section>
-	  
 	 <!-- section for bottom page -->
 	<section>
 		<!-- div for wavy background at bottom of page -->
@@ -90,22 +89,18 @@
 	<!-- start of footer -->
 	<footer class="shadow-lg mt-auto py-4 bg-body footer-background">
       <div class="container d-flex justify-content-between align-items-center">
-        <p>
+        <p class="col-10">
           © 2020&ndash;2021 &mdash; Breda University of Applied Sciences
         </p>
-        <ul class="list-unstyled d-flex align-items-center opacity-75">
+        <ul class="list-unstyled d-flex align-items-center opacity-75 col-1">
           <li>
-            <a href="https://www.facebook.com/people/Unbeak/100090343917641/?mibextid=LQQJ4d" target="_blank">
-              <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26">
-            </a>
+              <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26" href="https://www.facebook.com/people/Unbeak/100090343917641/?mibextid=LQQJ4d" target="_blank">
           </li>
           <li>
-            <a href="https://www.instagram.com/unbeak_eu/" target="_blank">
-              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
-            </a>
+              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26" href="https://www.instagram.com/unbeak_eu/" target="_blank">
           </li>
         </ul>
-		<img class="" src="images/unbeaklogofav.png" width="50" alt="unbeak favicon logo">
+		<img class="d-flex col-1 align-item-center footer-image" src="images/unbeaklogofav.png" alt="unbeak favicon logo">
       </div>
     </footer>
 	<!-- end of footer -->
