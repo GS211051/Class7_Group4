@@ -197,9 +197,10 @@ li {
 	margin-bottom: 50px !important;
 }
 
-.visual-header-margin {
-	margin-top: 75px !important;
-	margin-bottom: 50px !important;
+.visual-header {
+	margin-top: 50px !important;
+	margin-bottom: 25px !important;
+	width: 500px
 }
 
 .home-image {
@@ -214,4 +215,8 @@ li {
   	background-size: cover !important;
   	background-position: center !important;
   	background-repeat: no-repeat !important;
+}
+
+.bottom-waves {
+	height: 150px;
 }
