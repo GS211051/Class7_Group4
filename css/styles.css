@@ -222,6 +222,10 @@ li {
 }
 
 .vulnerability-allign {
+	float: left;
+}
+
+.equan-allign {
 	float: right;
 }
 
@@ -253,5 +257,8 @@ li {
 
 .funding-image {
 	width: 750px;
-	
+}
+
+.about-image-size {
+	width: 400px;
 }
