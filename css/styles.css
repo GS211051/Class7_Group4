@@ -182,7 +182,7 @@ li {
 }
 
 .customize-margin {
-	margin-top: 100px !important;
+	margin-top: 50px !important;
 }
 
 .customize-padding {
@@ -209,8 +209,8 @@ li {
 }
 
 .divider {
-	width: 1000px;
-	height: 50px;
+	max-width: 100%;
+	height: 200px;
 	background-image: url("../images/unbeakdivider.png") !important;
   	background-size: cover !important;
   	background-position: center !important;
@@ -219,4 +219,38 @@ li {
 
 .bottom-waves {
 	height: 150px;
+}
+
+.vulnerability-allign {
+	float: right;
+}
+
+.balance-allign {
+	float:left;
+}
+
+.team-image {
+	width: 150px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.custom-image {
+	width: 500px;
+}
+
+.bottom-background-height {
+	height: 100px;
+}
+
+.bottom-divider-height {
+	height: 125px;
+}
+
+.bottom-padding {
+	margin-top: 50px;
+}
+
+.funding-image {
+	width: 750px;
 }
