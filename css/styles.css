@@ -262,3 +262,19 @@ li {
 .about-image-size {
 	width: 400px;
 }
+
+.privacy-header {
+	margin-top: 50px;
+}
+
+.privacy-margin {
+	margin-top: 10px;
+}
+
+.privacy-margin-bottom {
+	margin-bottom: 50px;
+}
+
+.privacy-list {
+	margin-left: 25px;
+}
