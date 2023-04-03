@@ -8,7 +8,7 @@
 
 body {
 	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	background-color: #fffFFF;
 }
 
 /* Changing the background colour for the header */
@@ -130,6 +130,7 @@ li {
 
 .about-header-image {
 	width: 500px !important;
+	margin-top: 50px !important;
 }
 
 .about-margin {
