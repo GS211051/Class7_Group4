@@ -113,10 +113,11 @@ li {
 }
 
 .background-landing {
-  background-image: url("../images/placeholder.png") !important;
+  background-image: url("../images/david-mao-m0l5J8Lqnzo-unsplash.jpg") !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
+
 }
 
 .landing-padding {
@@ -281,11 +282,10 @@ li {
 
 .funding-image {
 	padding-top: 10px !important;
-	max-width: 450px !important;
+	max-width: 400px !important;
 }
 
 .funding-button {
-	padding-top: 25px;
+	padding-top: 50px;
 	padding-bottom: 25px;
-}.img-f {
 }
