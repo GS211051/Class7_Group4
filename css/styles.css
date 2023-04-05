@@ -60,6 +60,14 @@ p {
 	font-family: 'Mulish', sans-serif;
 }
 
+em {
+	font-family: 'Mulish', sans-serif;
+}
+
+li {
+	font-family: 'Mulish', sans-serif;
+}
+
 .body-font {
 	font-family: 'Mulish', sans-serif;
 }
@@ -113,7 +121,7 @@ li {
 }
 
 .background-landing {
-  background-image: url("../images/david-mao-m0l5J8Lqnzo-unsplash.jpg") !important;
+  background-image: url("../images/miti-DFtvglCPWjY-unsplash.jpg") !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
