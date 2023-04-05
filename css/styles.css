@@ -280,10 +280,12 @@ li {
 }
 
 .funding-image {
-	padding-top: 10px;
+	padding-top: 10px !important;
+	max-width: 450px !important;
 }
 
 .funding-button {
 	padding-top: 25px;
 	padding-bottom: 25px;
+}.img-f {
 }
