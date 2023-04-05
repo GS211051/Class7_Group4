@@ -154,7 +154,8 @@ li {
 }
 
 .visual-image {
-	width: 250px !important;
+	width: 400px !important;
+	padding-top: 50px !important;
 }
 
 .footer-logo-padding {
