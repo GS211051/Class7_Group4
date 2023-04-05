@@ -257,11 +257,11 @@ li {
 }
 
 .funding-image {
-	width: 750px;
+	width: 100px;
 }
 
 .about-image-size {
-	width: 400px;
+	width: 300px;
 }
 
 .privacy-header {
@@ -278,4 +278,8 @@ li {
 
 .privacy-list {
 	margin-left: 25px;
+}
+
+.about-h2 {
+	padding-top: 25px;
 }
