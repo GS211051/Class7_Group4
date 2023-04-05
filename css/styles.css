@@ -240,7 +240,8 @@ li {
 }
 
 .bottom-divider-height {
-	height: 125px;
+	height: 175px;
+	max-height: 175px;
 }
 
 .bottom-padding {
