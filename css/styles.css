@@ -145,10 +145,6 @@ li {
 	margin-bottom: 50px !important;
 }
 
-.funding-margin {
-	margin-bottom: 50px !important;
-	margin-top: 20px !important;
-}
 
 .btn-primary {
 	background-color: #ffba01 !important;
@@ -167,11 +163,6 @@ li {
 
 .footer-logo-width {
 	width: 40px !important;
-}
-
-.funding-header-marging {
-	margin: 50px !important;
-	margin-bottom: 60px !important;
 }
 
 .align-left {
@@ -256,10 +247,6 @@ li {
 	margin-top: 50px;
 }
 
-.funding-image {
-	width: 100px;
-}
-
 .about-image-size {
 	width: 300px;
 }
@@ -282,4 +269,19 @@ li {
 
 .about-h2 {
 	padding-top: 25px;
+}
+
+.funding-header-image {
+	padding-top: 25px;
+	padding-bottom: 50px;
+	width: 750px;
+}
+
+.funding-image {
+	padding-top: 10px;
+}
+
+.funding-button {
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
