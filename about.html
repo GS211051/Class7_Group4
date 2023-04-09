@@ -21,7 +21,7 @@
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="images/unbeaklogop.png" width="175" alt="Unbeak">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -121,7 +121,7 @@
 	
 	<!-- Section for team introduction -->
 	<section class="container-fluid background-secondary">
-		<div class= "row">	
+		<div class= "row pt-2">	
 			<div class="col-3">
 				<img class="about-image team-image" src="images/unbeaktara.png" alt="Tara Roijakkers">
 			</div>
@@ -158,18 +158,23 @@
 	<!-- start of footer -->
 	<footer class="shadow-lg mt-auto py-4 bg-body footer-background">
       <div class="container d-flex justify-content-between align-items-center">
-        <a class="col-11" href="privacy-policy.html">
-          Privacy Policy
-        </a>
-        <ul class="list-unstyled d-flex align-items-center opacity-75 col-1">
-          <li>
-              <img class="m-2" src="images/facebook.svg" alt="Follow us on Facebook" width="26" href="https://www.facebook.com/people/Unbeak/100090343917641/" target="_blank">
-          </li>
-          <li>
-              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26" href="https://www.instagram.com/unbeak_eu/" target="_blank">
-          </li>
+        <p class="col-2 pe-1" >
+          <a href="privacy-policy.html">Privacy Policy </a><br>
+			© Unbeak 2023
+		</p>
+		<a class="col-2" href="donate.html"><button type="button" class="btn btn-primary btn-lg mx-auto">Donate Here</button></a>
+		
+        <ul class="list-unstyled d-flex align-items-center col-1 ps-5">
+          	<li>
+            	<img class="m-2 opacity-75 footer-logo-width" src="images/facebook.svg" alt="Follow us on facebook" width="26" href="https://www.facebook.com/people/Unbeak/100090343917641/?mibextid=LQQJ4d" target="_blank">
+          	</li>
+          	<li>
+              	<img class="m-2 opacity-75 footer-logo-width" src="images/instagram.svg" alt="Follow us on Instagram" width="26" href="https://www.instagram.com/unbeak_eu/" target="_blank">
+          	</li>
+			<li>
+				<img class="d-flex col-1 align-item-center footer-image footer-logo-padding" src="images/unbeaklogofav.png" alt="unbeak logo">
+			</li>
         </ul>
-		<img class="d-flex col-1 align-item-center footer-image" src="images/unbeaklogofav.png" alt="unbeak favicon logo">
       </div>
     </footer>
 	<!-- end of footer -->

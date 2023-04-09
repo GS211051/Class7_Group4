@@ -202,7 +202,7 @@ li {
 .visual-header {
 	margin-top: 50px !important;
 	margin-bottom: 25px !important;
-	width: 500px
+	width: 600px
 }
 
 .home-image {
@@ -223,9 +223,9 @@ li {
 }
 
 .team-image {
-	width: 150px;
+	width: 200px;
 	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-bottom: 25px;
 }
 
 .custom-image {
@@ -276,10 +276,10 @@ li {
 	padding-bottom: 25px;
 }
 
-.bottom-wave {
-	background-image: url("../images/unbeakdivider.png");
-	background-size: cover !important;
-  	background-position: center !important;
-  	background-repeat: no-repeat !important;
-	padding-bottom: 150px !important;
+.donate-margin {
+	margin-top: 100px !important;
+}
+
+.donate-padding {
+	padding-bottom: 250px !important;
 }
