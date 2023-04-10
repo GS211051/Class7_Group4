@@ -121,7 +121,7 @@ li {
 }
 
 .background-landing {
-  background-image: url("../images/unbeaklandingimage.jpg") !important;
+  background-image: url("../images/unbeaklandingimage2.jpg") !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -133,8 +133,8 @@ li {
 }
 
 .footer-image {
-	width: 60px !important;
-	padding-bottom: 15px !important;
+	width: 60px;
+	padding-bottom: 15px;
 }
 
 .about-header-image {
@@ -172,7 +172,7 @@ li {
 }
 
 .footer-logo-width {
-	width: 40px !important;
+	width: 40px;
 }
 
 .align-left {
