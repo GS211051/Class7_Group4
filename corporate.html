@@ -1,379 +1,433 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Own Styles -->
-    <link rel="stylesheet" href="css/styles.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
-    <!-- Bootstrap Javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <!-- Own Styles -->
+  <link rel="stylesheet" href="css/styles.css">
 
-    <title>Unbeak - Corporate</title>
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 
-    <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
+  <title>Unbeak - Corporate</title>
 
-    <!-- End of Google Analytics code -->
-    
-  </head>
-  <body data-bs-spy="scroll" data-bs-target="#navbar-corporate" data-bs-smooth-scroll="true">
+  <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
 
-    <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/unbeaklogop.png" width="175" alt="Unbeak">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-			<li>
-				<a class="nav-link active" aria-current="page" href="about.html">About</a>
-			</li>
-			<li>
-				<a class="nav-link active" aria-current="page" href="funding.html">Funding</a>
-			</li>
-			<li>
-				<a class="nav-link active" aria-current="page" href="customize.html">Customize</a>
-			</li>
-			<li>
-				<a class="nav-link active" aria-current="page" href="visual.html">Visual Identity</a>
-			</li>
-            <li class="nav-item">
-              <a class="nav-link" href="corporate.html">Corporate</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- End of navigation bar -->
+  <!-- End of Google Analytics code -->
 
-    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light corporate-header">
-      <h1 class="text-black">Corporate information</h1>
-    </header>
+</head>
 
-    <main class="container-fluid container-xl">
-      <div class="row">
-        <div class="col-sm-4 col-md-3 col-lg-2 py-4">
-          <nav id="navbar-corporate" class="nav sticky-sm-top flex-row flex-sm-column lh-1 justify-content-sm-between">
-            <a class="nav-link p-0 mb-sm-3 fs-5 me-2 me-sm-0 text-decoration-none" href="#general">General</a>
-            <a class="nav-link p-0 mb-sm-3 fs-5 me-2 me-sm-0 text-decoration-none" href="#content">Content</a>
-            <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#production">Production</a>
-            <nav class="nav d-none d-sm-flex flex-column mb-2">
-              <a class="nav-link ms-3 p-0 mb-2" href="#production-1">Design Elements</a>
-              <a class="nav-link ms-3 p-0 mb-2" href="#production-2">Credits</a>
-              <a class="nav-link ms-3 p-0 mb-2" href="#production-3">Testing Report</a>
-            </nav>
-            <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#marketing">Marketing</a>
-            <nav class="nav d-none d-sm-flex flex-column mb-2">
-              <a class="nav-link ms-3 p-0 mb-2" href="#marketing-1">Context of campaign and promotional activities</a>
-              <a class="nav-link ms-3 p-0 mb-2" href="#marketing-2">Learning Points</a>
-              <a class="nav-link ms-3 p-0 mb-2" href="#marketing-3">Future Planning</a>
-              <a class="nav-link ms-3 p-0 mb-2" href="#marketing-4">Professionalism</a>
-            </nav>
-            <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#management">Management</a>
-            <nav class="nav d-none d-sm-flex flex-column mb-2">
-              <a class="nav-link ms-3 p-0 mb-2" href="#management-1">Lean Canvas</a>
-              <a class="nav-link ms-3 p-0 mb-2" href="#management-2">Validation of Assumptions</a>
-            </nav>
-            <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#appendix">Appendix</a>
-          </nav>    
-        </div>
-        <div class="col-sm-8 col-md-9 col-lg-10 py-sm-4">
+<body data-bs-spy="scroll" data-bs-target="#navbar-corporate" data-bs-smooth-scroll="true">
 
-          <!-- Start General -->
-          <h2 id="general">General Information</h2>
-          <p>
-            This branded website is publicly available at
-            <a href="https://github.com/buas-media-interactive/prj4-group-template">buas-media-interactive.github.io/my-website</a>
-          </p>
-          <p>
-            This website was created by&hellip;
-          </p>
-          <ol>
-            <li>Nienke Overbeek (Student ID: 213484)</li>
-            <li>Julia Hinten (Student ID: 212955)</li>
-			<li>Tara Roijakkers (Student ID: 213327)</li>
-			<li>Gijs Smeets (Student ID: 211051)</li>
-          </ol>
-          <!-- End General -->
-
-          <!-- Start Content -->
-
-          <h2 id="content">Content</h2>
-          <p>In this table you will find links to the content created by each student.</p>
-          <table class="table table-bordered table-striped">
-            <thead>
-              <tr class="bg-white">
-                <th scope="col">#</th>
-                <th scope="col">Student ID</th>
-                <th scope="col">Last Name</th>
-                <th scope="col">Name and link of content</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1.</th>
-                <td>213484</td>
-                <td>Overbeek</td>
-                <td>
-                  <a href="index.html">Home Page,</a> <a href="about.html">About,</a> <a href="funding.html">Funding</a>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">2.</th>
-                <td>212955</td>
-                <td>Hinten</td>
-                <td>
-                  <a href="index.html">Home Page,</a> <a href="about.html">About,</a> <a href="funding.html">Funding</a>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">3.</th>
-                <td>213327</td>
-                <td>Roijakkers</td>
-                <td>
-                  <a href="index.html">Home Page,</a> <a href="about.html">About,</a> <a href="funding.html">Funding,</a> <a href="customize.html">Customize,</a> <a href="visual.html">Visual Identity</a>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">4.</th>
-                <td>211051</td>
-                <td>Smeets</td>
-                <td>
-                  <a href="index.html">Home Page,</a> <a href="about.html">About,</a> <a href="funding.html">Funding,</a> <a href="customize.html">Customize,</a> <a href="visual.html">Visual Identity,</a> <a href="privacy-policy.html">Privacy Policy,</a> <a href="corporate.html">Corporate</a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          
-          <!-- End Content, start Production -->
-          
-          <h2 id="production" class="mt-5">Production</h2>
-          <h4 id="production-1" class="mt-2">Design Elements</h4>
-          <ul>
-            <li>
-				<h5>Our color pallet</h5>
-              <ul class="list-unstyled">
-                <li>
-                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #9EC4E6;"></span>
-                  #9EC4E6
-                  <em>We chose a light color blue because this has a calming effect on one’s mind, this links to one of our values: Equanimity.</em>
-                </li>
-                <li>
-                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #FFBA01;"></span>
-                  #FFBA01
-                  <em>The warm yellow color contrasts the blue making our color palette balanced, another one of Unbeaks values, But just as important the color yellow sparks positive emotions that Unbeak is aiming to bring across.</em>
-                </li>
-				<li>
-                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #FF871D;"></span>
-                  #FF871D
-                  <em>Orange encourages social communication and represents the youthful spirit in Unbeak.</em>
-                </li>
-              </ul>
-		<br>
-            </li>
-			  <li><h5>Font choices</h5></li>
-			  <p>The font styles Josefin Sans Bold and Mulish are ideal for the Unbeak brand. A contemporary, geometric sans-serif font named Josefin Sans Bold symbolizes the balance that Unbeak stands for. Mulish is a warm and inviting script typeface that emphasizes equanimity and vulnerability, which is a theme of Unbeak. Combined, the two fonts produce a balance between classic and contemporary lettering that perfectly captures the essence of the Unbeak brand</p>
-			  <li><h5>User interface patterns </h5></li>
-			   <p>To explain why we made certain design choices we created an .ai file where you can find all the justifcations for our website design. <a href="download/PRJ4_2223_Class7_Group4_Websitedesign_Justifications.ai">Download here</a></p>
-			  <img class="image-fluid mx-auto" src="images/designjustificationsprj4.png" alt="" width="500">
-          </ul>
-          	<h4 id="production-2" class="mt-2">Credits</h4>
-  				<ul>
-					<li><a href="https://www.freepik.com/free-photo/metal-box_1166767.htm#query=tin%20tea%20canister&position=11&from_view=search&track=ais">Image by topntp26</a> </li>
-				</ul> 
-          	<h4 id="production-3" class="mt-2">Testing Report</h4>
-          <p>Please write about&hellip;</p>
-          <ul>
-            <li>Your testing <strong>goals</strong> &ndash; in other words, what you are trying to learn about your website?</li>
-            <li>Your testing <strong>methods</strong>, which includes information about:
-              <ul>
-                <li>The test&rsquo;s <strong>participants</strong> (number, match with target audience, etc.)</li>
-                <li>The test&rsquo;s <strong>setting</strong> (which material is used, is it done remotely, on campus, at home, etc.)</li>
-                <li>The test&rsquo;s <strong>protocol</strong> (what instructions are given, how it is recorded, etc.)</li>
-              </ul>
-            </li>
-            <li>Your testing <strong>results</strong>, which includes information about:
-              <ul>
-                <li>Positive and negative aspects of the UI/UX that have been identified, ranked by importance.</li>
-                <li>Improvements that have been implemented on the final website (or that would be implemented if doing so would be too complex)</li>
-              </ul>
-            </li>
-          </ul>
-
-          <!-- End Production, start Marketing -->
-
-          <h2 id="marketing" class="mt-5">Marketing</h2>
-          <h4 id="marketing-1" class="mt-2">Context of campaign and promotional activities</h4>
-          <p>The goal of the campaign is to introduce our brand Unbeak to our main target group, and to share our values & 	mission with them. We want our main target group to invest in our brand through our website.</p> 
-			<p>The message we want to send to the world is: In world where people are chased by the clock in their attempt of always taking care of others. We believe that taking care of yourself first and spending time alone is an absolute must. Only then the clock won’t chase you and you’ll be able to be there for the ones you love. 
-			Promotional activities will include social media promotion. Posting regularly and creating a community is the main activity this campaign is based around.</p>
-			<p>Our current objectives are: <br>
-				<strong>Reach:</strong> Website 300 people before 10th of April. Instagram, 300 people have seen the page, Facebook, 200 people have seen the page.</p>
-			<p><strong>Affect:</strong> We want our target audience (parents) to feel calm, balanced, and are able to take care of themselves just as well as of others.  </p>
-			<p> <strong>Response:</strong> We want our target audience (parents) to take care of themselves and be able to find balance so that they can take care of others too.</p>
-			<h5>Our chosen channels are:</h5>
-			<strong>Facebook:</strong>
-		  <ul>
-		  <li>During our interviews we noticed that Facebook was a commonly used platform by our main target group</li>
-		  <li>We will be posting 3 times a week on this platform because based on our interviews we noticed this is how often our main target group uses this platform</li>
-		  </ul>
-		<strong>Instagram:</strong>
-		<ul>
-			<li>During our interviews we noticed that Instagram was a commonly used platform by our main target group</li>
-			<li>We will be posting 3 times a week on this platform because based on our interviews we noticed this is how often our main target group uses this platform.</li>
-		</ul>
-          <h4 id="marketing-2" class="mt-4">Learning Points</h4>
-          	<p>Identify and justify your learning point (based on the Communication & Media Plan). What did you learn during the duration of the project concerning the campaign? What worked and what didn’t? What went as expected and what didn’t? What would you do differently? Reflect on the past work and describe what you learned.</p>
-          <h4 id="marketing-3" class="mt-4">Future Planning</h4>
-          <p>Reflection on what has been done and describe in detail what you would do if the project would continue.</p>
-          <p>Describe in detail your future recommendations if the campaign would be continued.</p>
-          <p>Detail and describe clearly the process of what your would do differently based on you experience on this project related to the marketing assignment.</p>
-          <h4 id="marketing-4" class="mt-4">Professionalism</h4>
-          <p>Present and organize below all social media/online activities of the campaign. Context and material are according to the brand style, image, and vision. Images on the site are of high-quality, readable, and properly designed.</p>
-          <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center">
-            <li class="m-2">
-              <a href="#"><!-- Please make a link to your socials instead -->
-                <img alt="Image Placeholder" class="img-thumbnail" src="images/social-media-placeholder.jpg">
-              </a>
-            </li>
-            <li class="m-2">
-              <a href="#"><!-- Please make a link to your socials instead -->
-                <img alt="Image Placeholder" class="img-thumbnail" src="images/social-media-placeholder.jpg">
-              </a>
-            </li>
-            <li class="m-2">
-              <a href="#"><!-- Please make a link to your socials instead -->
-                <img alt="Image Placeholder" class="img-thumbnail" src="images/social-media-placeholder.jpg">
-              </a>
-            </li>
-          </ul>
-        
-          <!-- End Marketing, start Management -->
-
-          <h2 id="management" class="mt-5">Management</h2>
-
-          <h4 id="management-1" class="mt-2">Lean Canvas</h4>
-
-          <p>Fill in at least 2 bullet points per building block and according to the rubrics.</p>
-
-          <p class="fw-bold">Problem</p>
-          <ul>
-            <li>List your top 3 problems you solve for your target group(s).</li>
-            <li>Describe briefly how the problems are solved now (existing alternatives).</li>
-          </ul>
-          <p class="fw-bold">Solution</p>
-          <ul>
-            <li>Outline the brand solution(s) you have for the above problem(s).</li>
-          </ul>
-          <p class="fw-bold">Customer segments</p>
-          <ul>
-            <li>List your target customers and/or users.</li>
-            <li>Describe briefly the characteristics of your ideal customer (early adopter, brand persona).</li>
-          </ul>
-          <p class="fw-bold">Unique value proposition</p>
-          <ul>
-            <li>With a single, clear compelling message, state why your brand idea is different and worth paying attention to.</li>
-            <li></li>
-          </ul>
-          <p class="fw-bold">Unfair advantage</p>
-          <ul>
-            <li>List the aspect(s) of your brand that cannot easily be copied, also called your sustainable competitive advantage(s).</li>
-          </ul>
-          <p class="fw-bold">Channels</p>
-          <ul>
-            <li>List your main path to customers.</li>
-            <li>How do you reach them? What channel(s) do you use.</li>
-          </ul>
-          <p class="fw-bold">Key metrics</p>
-          <ul>
-            <li>List the key numbers that tell you how your brand experience is doing.</li>
-            <li>For example amount of users, downloads, visitors, subscriptions, sales etc. Numbers you are able to measure.</li>
-          </ul>
-          <p class="fw-bold">Revenue streams</p>
-          <ul>
-            <li>List your sources of revenue: describe the revenue model and the (different) revenue stream(s).</li>
-          </ul>
-          <p class="fw-bold">Cost structure</p>
-          <ul>
-            <li>List your main costs: define the fixed and variable costs.</li>
-            <li>Calculate the cost per unit.</li>
-          </ul>
-          <p class="fw-bold">Services/products</p>
-          <ul>
-            <li>State what your product and/or service is and how this contributes to your unique value proposition.</li>
-            <li>Clarify the fit between the product/service developed and the brand identity/brand image.</li>
-          </ul>
-
-          <h4 id="management-2" class="mt-2">Validation of Assumptions</h4>
-          <p>Write a reflection on the choices made in creating choosing the trademark, including an analysis of the existing alternatives.</p>
-
-          <!-- End Management, start Appendix -->
-          
-
-          <h2 id="appendix" class="mt-5">Appendix</h2>
-
-          <p>
-            Please use the list below to provide links to evidence for all parts of your justication.
-            Please double-check all links before delivering the website.
-            Do not hesitate to refer to these numbers above.
-          </p>
-
-          <ol>
-            <li>
-              <a href="https://" target="_blank">Description of evidence #1</a>
-            </li>
-            <li>
-              <a href="https://" target="_blank">Description of evidence #2</a>
-            </li>
-            <li>
-              <a href="https://" target="_blank">Description of evidence #3</a>
-            </li>
-            <li>
-              <a href="https://" target="_blank">Description of evidence #4</a>
-            </li>
-            <li>
-              <a href="https://" target="_blank">Description of evidence #5</a>
-            </li>
-          </ol>
-          
-        </div>
-      </div>
-    </main>
-
-    <!-- A footer with socials -->
-	<footer class="shadow-lg mt-auto py-4 bg-body footer-background">
-      <div class="container d-flex justify-content-between align-items-center">
-        <p class="col-2 pe-1" >
-          <a href="privacy-policy.html">Privacy Policy </a><br>
-			© Unbeak 2023
-		</p>
-		<a class="col-2" href="donate.html"><button type="button" class="btn btn-primary btn-lg mx-auto">Donate Here</button></a>
-		
-        <ul class="list-unstyled d-flex align-items-center col-1 ps-5">
-          	<li>
-            	<img class="m-2 opacity-75 footer-logo-width" src="images/facebook.svg" alt="Follow us on facebook" width="26" href="https://www.facebook.com/people/Unbeak/100090343917641/?mibextid=LQQJ4d" target="_blank">
-          	</li>
-          	<li>
-              	<img class="m-2 opacity-75 footer-logo-width" src="images/instagram.svg" alt="Follow us on Instagram" width="26" href="https://www.instagram.com/unbeak_eu/" target="_blank">
-          	</li>
-			<li>
-				<img class="d-flex col-1 align-item-center footer-image footer-logo-padding" src="images/unbeaklogofav.png" alt="unbeak logo">
-			</li>
+  <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/unbeaklogop.png" width="175" alt="Unbeak">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+          </li>
+          <li>
+            <a class="nav-link active" aria-current="page" href="funding.html">Funding</a>
+          </li>
+          <li>
+            <a class="nav-link active" aria-current="page" href="customize.html">Customize</a>
+          </li>
+          <li>
+            <a class="nav-link active" aria-current="page" href="visual.html">Visual Identity</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="corporate.html">Corporate</a>
+          </li>
         </ul>
       </div>
-    </footer>
-    <!-- End of the grid -->
+    </div>
+  </nav>
+  <!-- End of navigation bar -->
 
-  </body>
+  <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light corporate-header">
+    <h1 class="text-black">Corporate information</h1>
+  </header>
+
+  <main class="container-fluid container-xl">
+    <div class="row">
+      <div class="col-sm-4 col-md-3 col-lg-2 py-4">
+        <nav id="navbar-corporate" class="nav sticky-sm-top flex-row flex-sm-column lh-1 justify-content-sm-between">
+          <a class="nav-link p-0 mb-sm-3 fs-5 me-2 me-sm-0 text-decoration-none" href="#general">General</a>
+          <a class="nav-link p-0 mb-sm-3 fs-5 me-2 me-sm-0 text-decoration-none" href="#content">Content</a>
+          <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#production">Production</a>
+          <nav class="nav d-none d-sm-flex flex-column mb-2">
+            <a class="nav-link ms-3 p-0 mb-2" href="#production-1">Design Elements</a>
+            <a class="nav-link ms-3 p-0 mb-2" href="#production-2">Credits</a>
+            <a class="nav-link ms-3 p-0 mb-2" href="#production-3">Testing Report</a>
+          </nav>
+          <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#marketing">Marketing</a>
+          <nav class="nav d-none d-sm-flex flex-column mb-2">
+            <a class="nav-link ms-3 p-0 mb-2" href="#marketing-1">Context of campaign and promotional activities</a>
+            <a class="nav-link ms-3 p-0 mb-2" href="#marketing-2">Learning Points</a>
+            <a class="nav-link ms-3 p-0 mb-2" href="#marketing-3">Future Planning</a>
+            <a class="nav-link ms-3 p-0 mb-2" href="#marketing-4">Professionalism</a>
+          </nav>
+          <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#management">Management</a>
+          <nav class="nav d-none d-sm-flex flex-column mb-2">
+            <a class="nav-link ms-3 p-0 mb-2" href="#management-1">Lean Canvas</a>
+            <a class="nav-link ms-3 p-0 mb-2" href="#management-2">Validation of Assumptions</a>
+          </nav>
+          <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#appendix">Appendix</a>
+        </nav>
+      </div>
+      <div class="col-sm-8 col-md-9 col-lg-10 py-sm-4">
+
+        <!-- Start General -->
+        <h2 id="general">General Information</h2>
+        <p>
+          This branded website is publicly available at
+          <a
+            href="https://github.com/buas-media-interactive/prj4-group-template">buas-media-interactive.github.io/my-website</a>
+        </p>
+        <p>
+          This website was created by&hellip;
+        </p>
+        <ol>
+          <li>Nienke Overbeek (Student ID: 213484)</li>
+          <li>Julia Hinten (Student ID: 212955)</li>
+          <li>Tara Roijakkers (Student ID: 213327)</li>
+          <li>Gijs Smeets (Student ID: 211051)</li>
+        </ol>
+        <!-- End General -->
+
+        <!-- Start Content -->
+
+        <h2 id="content">Content</h2>
+        <p>In this table you will find links to the content created by each student.</p>
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr class="bg-white">
+              <th scope="col">#</th>
+              <th scope="col">Student ID</th>
+              <th scope="col">Last Name</th>
+              <th scope="col">Name and link of content</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1.</th>
+              <td>213484</td>
+              <td>Overbeek</td>
+              <td>
+                <a href="index.html">Home Page,</a> <a href="about.html">About,</a> <a href="funding.html">Funding</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2.</th>
+              <td>212955</td>
+              <td>Hinten</td>
+              <td>
+                <a href="index.html">Home Page,</a> <a href="about.html">About,</a> <a href="funding.html">Funding</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3.</th>
+              <td>213327</td>
+              <td>Roijakkers</td>
+              <td>
+                <a href="index.html">Home Page,</a> <a href="about.html">About,</a> <a href="funding.html">Funding,</a>
+                <a href="customize.html">Customize,</a> <a href="visual.html">Visual Identity</a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">4.</th>
+              <td>211051</td>
+              <td>Smeets</td>
+              <td>
+                <a href="index.html">Home Page,</a> <a href="about.html">About,</a> <a href="funding.html">Funding,</a>
+                <a href="customize.html">Customize,</a> <a href="visual.html">Visual Identity,</a> <a
+                  href="privacy-policy.html">Privacy Policy,</a> <a href="corporate.html">Corporate</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- End Content, start Production -->
+
+        <h2 id="production" class="mt-5">Production</h2>
+        <h4 id="production-1" class="mt-2">Design Elements</h4>
+        <ul>
+          <li>
+            <h5>Our color pallet</h5>
+            <ul class="list-unstyled">
+              <li>
+                <span class="border border-secondary rounded px-2 me-1" style="background-color: #9EC4E6;"></span>
+                #9EC4E6
+                <em>We chose a light color blue because this has a calming effect on one’s mind, this links to one of
+                  our values: Equanimity.</em>
+              </li>
+              <li>
+                <span class="border border-secondary rounded px-2 me-1" style="background-color: #FFBA01;"></span>
+                #FFBA01
+                <em>The warm yellow color contrasts the blue making our color palette balanced, another one of Unbeaks
+                  values, But just as important the color yellow sparks positive emotions that Unbeak is aiming to bring
+                  across.</em>
+              </li>
+              <li>
+                <span class="border border-secondary rounded px-2 me-1" style="background-color: #FF871D;"></span>
+                #FF871D
+                <em>Orange encourages social communication and represents the youthful spirit in Unbeak.</em>
+              </li>
+            </ul>
+            <br>
+          </li>
+          <li>
+            <h5>Font choices</h5>
+          </li>
+          <p>The font styles Josefin Sans Bold and Mulish are ideal for the Unbeak brand. A contemporary, geometric
+            sans-serif font named Josefin Sans Bold symbolizes the balance that Unbeak stands for. Mulish is a warm and
+            inviting script typeface that emphasizes equanimity and vulnerability, which is a theme of Unbeak. Combined,
+            the two fonts produce a balance between classic and contemporary lettering that perfectly captures the
+            essence of the Unbeak brand</p>
+          <li>
+            <h5>User interface patterns </h5>
+          </li>
+          <p>To explain why we made certain design choices we created an .ai file where you can find all the
+            justifcations for our website design. <a
+              href="download/PRJ4_2223_Class7_Group4_Websitedesign_Justifications.ai">Download here</a></p>
+          <img class="image-fluid mx-auto" src="images/designjustificationsprj4.png" alt="" width="500">
+        </ul>
+        <h4 id="production-2" class="mt-2">Credits</h4>
+        <ul>
+          <li><a
+              href="https://www.freepik.com/free-photo/metal-box_1166767.htm#query=tin%20tea%20canister&position=11&from_view=search&track=ais">Image
+              by topntp26</a> </li>
+        </ul>
+        <h4 id="production-3" class="mt-2">Testing Report</h4>
+        <p>Please write about&hellip;</p>
+        <ul>
+          <li>Your testing <strong>goals</strong> &ndash; in other words, what you are trying to learn about your
+            website?</li>
+          <li>Your testing <strong>methods</strong>, which includes information about:
+            <ul>
+              <li>The test&rsquo;s <strong>participants</strong> (number, match with target audience, etc.)</li>
+              <li>The test&rsquo;s <strong>setting</strong> (which material is used, is it done remotely, on campus, at
+                home, etc.)</li>
+              <li>The test&rsquo;s <strong>protocol</strong> (what instructions are given, how it is recorded, etc.)
+              </li>
+            </ul>
+          </li>
+          <li>Your testing <strong>results</strong>, which includes information about:
+            <ul>
+              <li>Positive and negative aspects of the UI/UX that have been identified, ranked by importance.</li>
+              <li>Improvements that have been implemented on the final website (or that would be implemented if doing so
+                would be too complex)</li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- End Production, start Marketing -->
+
+        <h2 id="marketing" class="mt-5">Marketing</h2>
+        <h4 id="marketing-1" class="mt-2">Context of campaign and promotional activities</h4>
+        <p>The goal of the campaign is to introduce our brand Unbeak to our main target group, and to share our values &
+          mission with them. We want our main target group to invest in our brand through our website.</p>
+        <p>The message we want to send to the world is: In world where people are chased by the clock in their attempt
+          of always taking care of others. We believe that taking care of yourself first and spending time alone is an
+          absolute must. Only then the clock won’t chase you and you’ll be able to be there for the ones you love.
+          Promotional activities will include social media promotion. Posting regularly and creating a community is the
+          main activity this campaign is based around.</p>
+        <p>Our current objectives are: <br>
+          <strong>Reach:</strong> Website 300 people before 10th of April. Instagram, 300 people have seen the page,
+          Facebook, 200 people have seen the page.
+        </p>
+        <p><strong>Affect:</strong> We want our target audience (parents) to feel calm, balanced, and are able to take
+          care of themselves just as well as of others. </p>
+        <p> <strong>Response:</strong> We want our target audience (parents) to take care of themselves and be able to
+          find balance so that they can take care of others too.</p>
+        <h5>Our chosen channels are:</h5>
+        <strong>Facebook:</strong>
+        <ul>
+          <li>During our interviews we noticed that Facebook was a commonly used platform by our main target group</li>
+          <li>We will be posting 3 times a week on this platform because based on our interviews we noticed this is how
+            often our main target group uses this platform</li>
+        </ul>
+        <strong>Instagram:</strong>
+        <ul>
+          <li>During our interviews we noticed that Instagram was a commonly used platform by our main target group</li>
+          <li>We will be posting 3 times a week on this platform because based on our interviews we noticed this is how
+            often our main target group uses this platform.</li>
+        </ul>
+        <h4 id="marketing-2" class="mt-4">Learning Points</h4>
+        <p>Identify and justify your learning point (based on the Communication & Media Plan). What did you learn during
+          the duration of the project concerning the campaign? What worked and what didn’t? What went as expected and
+          what didn’t? What would you do differently? Reflect on the past work and describe what you learned.</p>
+        <h4 id="marketing-3" class="mt-4">Future Planning</h4>
+        <p>Reflection on what has been done and describe in detail what you would do if the project would continue.</p>
+        <p>Describe in detail your future recommendations if the campaign would be continued.</p>
+        <p>Detail and describe clearly the process of what your would do differently based on you experience on this
+          project related to the marketing assignment.</p>
+        <h4 id="marketing-4" class="mt-4">Professionalism</h4>
+        <p>Present and organize below all social media/online activities of the campaign. Context and material are
+          according to the brand style, image, and vision. Images on the site are of high-quality, readable, and
+          properly designed.</p>
+        <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center">
+          <li class="m-2">
+            <a href="#"><!-- Please make a link to your socials instead -->
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/social-media-placeholder.jpg">
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="#"><!-- Please make a link to your socials instead -->
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/social-media-placeholder.jpg">
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="#"><!-- Please make a link to your socials instead -->
+              <img alt="Image Placeholder" class="img-thumbnail" src="images/social-media-placeholder.jpg">
+            </a>
+          </li>
+        </ul>
+
+        <!-- End Marketing, start Management -->
+
+        <h2 id="management" class="mt-5">Management</h2>
+
+        <h4 id="management-1" class="mt-2">Lean Canvas</h4>
+
+        <p>Fill in at least 2 bullet points per building block and according to the rubrics.</p>
+
+        <p class="fw-bold">Problem</p>
+        <ul>
+          <li>List your top 3 problems you solve for your target group(s).</li>
+          <li>Describe briefly how the problems are solved now (existing alternatives).</li>
+        </ul>
+        <p class="fw-bold">Solution</p>
+        <ul>
+          <li>Outline the brand solution(s) you have for the above problem(s).</li>
+        </ul>
+        <p class="fw-bold">Customer segments</p>
+        <ul>
+          <li>List your target customers and/or users.</li>
+          <li>Describe briefly the characteristics of your ideal customer (early adopter, brand persona).</li>
+        </ul>
+        <p class="fw-bold">Unique value proposition</p>
+        <ul>
+          <li>With a single, clear compelling message, state why your brand idea is different and worth paying attention
+            to.</li>
+          <li></li>
+        </ul>
+        <p class="fw-bold">Unfair advantage</p>
+        <ul>
+          <li>List the aspect(s) of your brand that cannot easily be copied, also called your sustainable competitive
+            advantage(s).</li>
+        </ul>
+        <p class="fw-bold">Channels</p>
+        <ul>
+          <li>List your main path to customers.</li>
+          <li>How do you reach them? What channel(s) do you use.</li>
+        </ul>
+        <p class="fw-bold">Key metrics</p>
+        <ul>
+          <li>List the key numbers that tell you how your brand experience is doing.</li>
+          <li>For example amount of users, downloads, visitors, subscriptions, sales etc. Numbers you are able to
+            measure.</li>
+        </ul>
+        <p class="fw-bold">Revenue streams</p>
+        <ul>
+          <li>List your sources of revenue: describe the revenue model and the (different) revenue stream(s).</li>
+        </ul>
+        <p class="fw-bold">Cost structure</p>
+        <ul>
+          <li>List your main costs: define the fixed and variable costs.</li>
+          <li>Calculate the cost per unit.</li>
+        </ul>
+        <p class="fw-bold">Services/products</p>
+        <ul>
+          <li>State what your product and/or service is and how this contributes to your unique value proposition.</li>
+          <li>Clarify the fit between the product/service developed and the brand identity/brand image.</li>
+        </ul>
+
+        <h4 id="management-2" class="mt-2">Validation of Assumptions</h4>
+        <p>Write a reflection on the choices made in creating choosing the trademark, including an analysis of the
+          existing alternatives.</p>
+
+        <!-- End Management, start Appendix -->
+
+
+        <h2 id="appendix" class="mt-5">Appendix</h2>
+
+        <p>
+          Please use the list below to provide links to evidence for all parts of your justication.
+          Please double-check all links before delivering the website.
+          Do not hesitate to refer to these numbers above.
+        </p>
+
+        <ol>
+          <li>
+            <a href="https://" target="_blank">Description of evidence #1</a>
+          </li>
+          <li>
+            <a href="https://" target="_blank">Description of evidence #2</a>
+          </li>
+          <li>
+            <a href="https://" target="_blank">Description of evidence #3</a>
+          </li>
+          <li>
+            <a href="https://" target="_blank">Description of evidence #4</a>
+          </li>
+          <li>
+            <a href="https://" target="_blank">Description of evidence #5</a>
+          </li>
+        </ol>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- start of footer -->
+  <footer class="shadow-lg mt-auto py-4 bg-body footer-background">
+    <div class="container d-sm-flex justify-content-between align-items-center">
+      <p class="col-4 pe-1">
+        <a href="privacy-policy.html">Privacy Policy </a><br />
+        © Unbeak 2023
+      </p>
+      <a class="col-4 d-md-flex" href="donate.html"><button type="button" class="btn btn-primary btn-lg mx-auto">
+          Donate Here
+        </button></a>
+
+      <ul class="list-unstyled d-flex align-items-center justify-content-md-center  col-sm-4 ps-md-5">
+        <li>
+          <img class="m-2 opacity-75 footer-logo-width" src="images/facebook.svg" alt="Follow us on facebook" width="26"
+            href="https://www.facebook.com/people/Unbeak/100090343917641/?mibextid=LQQJ4d" target="_blank" />
+        </li>
+        <li>
+          <img class="m-2 opacity-75 footer-logo-width" src="images/instagram.svg" alt="Follow us on Instagram"
+            width="26" href="https://www.instagram.com/unbeak_eu/" target="_blank" />
+        </li>
+        <li>
+          <img class="d-flex col-1 align-item-center footer-image footer-logo-padding" src="images/unbeaklogofav.png"
+            alt="unbeak logo" />
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <!-- end of footer -->
+
+</body>
+
 </html>

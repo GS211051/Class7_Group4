@@ -120,6 +120,7 @@ li {
 	background-color: #FDF1D0;
 }
 
+
 .background-landing {
   background-image: url("../images/unbeaklandingimage2.jpg") !important;
   background-size: cover !important;
@@ -163,7 +164,8 @@ li {
 }
 
 .visual-image {
-	width: 400px !important;
+	max-width: 400px !important;
+	width: 100% !important;
 	padding-top: 50px !important;
 }
 
@@ -269,6 +271,7 @@ li {
 .funding-image {
 	padding-top: 10px !important;
 	max-width: 400px !important;
+	width: 100%;
 }
 
 .funding-button {
@@ -282,4 +285,11 @@ li {
 
 .donate-padding {
 	padding-bottom: 250px !important;
+}
+
+
+@media screen and (max-width: 767px){
+	.card-wrapper img{
+		float: left
+	}
 }
