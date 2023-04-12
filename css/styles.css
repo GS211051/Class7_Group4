@@ -130,7 +130,7 @@ li {
 }
 
 .landing-padding {
-	padding-bottom: 150px;
+	padding-bottom: 250px;
 }
 
 .footer-image {
@@ -292,4 +292,12 @@ li {
 	.card-wrapper img{
 		float: left
 	}
+}
+
+.fundus-image {
+	width: 400px;
+}
+
+.product-image {
+	width: 500px;
 }
