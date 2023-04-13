@@ -56,10 +56,6 @@ h5 {
 	font-family: 'Josefin Sans', sans-serif !important;
 }
 
-h6 {
-	font-family: 'Josefin Sans', sans-serif !important;
-}
-
 p {
 	font-family: 'Mulish', sans-serif;
 }
@@ -308,8 +304,4 @@ li {
 
 .corporate-image {
 	width: 250px;
-}
-
-.marketing-planning {
-	width: 700px;
 }
