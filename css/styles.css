@@ -307,9 +307,17 @@ li {
 }
 
 .corporate-image {
-	width: 250px;
+	width: 500px;
 }
 
 .marketing-planning {
 	width: 700px;
+}
+
+.pr-image {
+	width: 500px;
+}
+
+.pr1-image {
+	width: 250px;
 }
